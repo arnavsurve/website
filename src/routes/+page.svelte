@@ -1,13 +1,10 @@
 <script>
-    import Navbar from "../components/Navbar.svelte";
+    import Header from "../components/Header.svelte";
+    import Prose from "../components/Prose.svelte";
 </script>
 
-<h1 class="font-mono text-slate-500">arnav surve</h1>
+<Header />
 
-<Navbar />
-
-<style>
-    h1 {
-        padding: 1rem;
-    }
-</style>
+<Prose>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eius optio nihil expedita ab, consequuntur necessitatibus pariatur fuga voluptatem ut illum commodi id aliquid perspiciatis nam mollitia? Molestiae, perspiciatis atque?
+</Prose>

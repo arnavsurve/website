@@ -12,7 +12,7 @@
 <nav>
     <ul class="font-mono">
         {#each links as { href, text }}
-            <li><a href={href}>{href === currentPath ? '* ':''}{text}</a></li>
+            <li><a href={href} class="hover:underline">{href === currentPath ? '* ':''}{text}</a></li>
         {/each}
     </ul>
 </nav>
@@ -27,9 +27,4 @@
     /* ul {
         margin-left: auto;
     } */
-
-    li:hover {
-        text-decoration: underline;
-    }
-
 </style>
