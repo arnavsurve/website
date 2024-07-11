@@ -10,7 +10,7 @@
         <Prose>
             I am a third-year student at California State Univerity, Sacramento pursuing a Bachelor's degree in Computer Science.
             <br><br>
-            Currently, Linux and DevOps engineering have been of key interest to me, and I am currently working through this <a href="https://roadmap.sh/devops" class="text-slate-400 hover:underline">DevOps Roadmap</a>. 
+            Currently, Linux and DevOps engineering have been of key interest to me, and I am currently working through this <a href="https://roadmap.sh/devops" class="text-slate-500 hover:underline">DevOps Roadmap</a>. 
             <br><br>
             I am focused on developing a strong foundation in Go and Python programming, as well as familiarizing myself with the RHEL ecoystem with a bare metal install of Fedora Linux. I have experience with both Debian (apt) and RHEL (dnf) based distributions.
         </Prose>
