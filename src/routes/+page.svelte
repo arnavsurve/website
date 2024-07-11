@@ -6,7 +6,7 @@
 <Header />
 
 <div class="flex">
-    <div class="justify-start">
+    <div class="">
         <Prose>
             I am a third-year student at California State Univerity, Sacramento pursuing a Bachelor's degree in Computer Science.
             <br><br>
