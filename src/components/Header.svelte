@@ -22,9 +22,9 @@
     <h1 id="name" class="text-slate-500 text-3xl blinking-cursor"></h1>
 
     <div class="justify-end">
-        <a href="mailto:arnavsurve@gmail.com">arnavsurve@gmail.com</a>
-        <a href="https://www.github.com/arnavsurve">github</a>
-        <a href="https://www.linkedin.com/in/arnavsurve/">linkedin</a>
+        <a class="hover:underline" href="mailto:arnavsurve@gmail.com">arnavsurve@gmail.com</a>
+        <a class="hover:underline" href="https://www.github.com/arnavsurve">github</a>
+        <a class="hover:underline" href="https://www.linkedin.com/in/arnavsurve/">linkedin</a>
         <!-- <a href="https://leetcode.com/u/arnavsurve/">leetcode</a> -->
     </div>
 </div>
