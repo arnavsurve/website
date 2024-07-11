@@ -2,7 +2,6 @@
     import { page } from '$app/stores'; // import $page store from SvelteKit
     const links = [
         { text: "home", href: "/" },
-        { text: "about", href: "/about" },
         { text: "projects", href: "/projects" },
     ];
 
