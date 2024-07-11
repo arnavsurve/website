@@ -25,7 +25,7 @@
 
             <ul class="text-sm list-disc p-2">
                 <li>Interning at Milgard Manufacturing, IT DevOps in Tacoma, WA</li>
-                <li>Conducting infrasound research at NASA California Space Grant Consortium</li>
+                <li>Conducting infrasound research under the NASA California Space Grant Consortium</li>
                 <li>Taking MATH410 (Intro to Linear Algebra) at American River College</li>
             </ul>
 

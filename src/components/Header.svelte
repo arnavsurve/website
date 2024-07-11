@@ -19,8 +19,7 @@
 </script>
 
 <div class="flex items-center justify-between font-mono p-4">
-    <h1 id="name" class="text-slate-500 text-3xl">
-    </h1>
+    <h1 id="name" class="text-slate-500 text-3xl blinking-cursor"></h1>
 
     <div class="justify-end">
         <a href="mailto:arnavsurve@gmail.com">arnavsurve@gmail.com</a>
@@ -31,3 +30,20 @@
 </div>
 
 <Navbar />
+
+<style>
+    @keyframes blink {
+        0%, 100% { opacity: 0; }
+        50% { opacity: 1; }
+    }
+
+    .blinking-cursor::after {
+        content: '_';
+        animation: blink 1s step-start infinite;
+        font-weight: bold;
+    }
+
+    h1 {
+        display: inline-block; /* Allows the cursor to appear right after the text */
+    }
+</style>
