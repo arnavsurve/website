@@ -7,7 +7,7 @@
 <Header />
 
 <div class="flex">
-    <div class="">
+    <div class="m-4">
         <Prose>
             I am a third-year student at California State Univerity, Sacramento pursuing a Bachelor's degree in Computer Science.
             <br><br>
@@ -16,7 +16,9 @@
             I am focused on developing a strong foundation in Go and Python programming, as well as familiarizing myself with the RHEL ecoystem with a bare metal install of Fedora Linux. I have experience with both Debian (apt) and RHEL (dnf) based distributions.
         </Prose>
 
-        <div class="font-mono p-4">
+        <br>
+
+        <div class="font-mono">
             <h1 class="text-xl font-mono">
                 this summer I am:
             </h1>
