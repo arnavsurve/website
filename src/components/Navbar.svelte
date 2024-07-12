@@ -3,6 +3,7 @@
     const links = [
         { text: "home", href: "/" },
         { text: "projects", href: "/projects" },
+        { text: "resume", href: "/resume" },
     ];
 
     $: currentPath = $page.url.pathname;
