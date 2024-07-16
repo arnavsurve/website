@@ -19,7 +19,7 @@
 </script>
 
 <div class="flex items-center justify-between font-mono p-4">
-    <h1 id="name" class="text-slate-500 text-3xl blinking-cursor"></h1>
+    <h1 id="name" class="text-slate-500 text-3xl blinking-cursor"> </h1>
 
     <div class="justify-end">
         <a class="hover:underline" href="mailto:arnavsurve@gmail.com">arnavsurve@gmail.com</a>
