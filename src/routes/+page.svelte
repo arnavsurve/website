@@ -1,7 +1,7 @@
 <script>
     import Header from "../components/Header.svelte";
     import Prose from "../components/Prose.svelte";
-    import Resume from "../components/Resume.svelte";
+    import StyleLink from "../components/StyleLink.svelte";
 </script>
 
 <Header />
@@ -11,7 +11,7 @@
         <Prose>
             I am a third-year student at California State Univerity, Sacramento pursuing a Bachelor's degree in Computer Science.
             <br><br>
-            Currently, Linux and DevOps engineering have been of key interest to me, and I have been working through this <a href="https://roadmap.sh/devops" class="text-slate-500 hover:underline">DevOps Roadmap</a>. 
+            Currently, Linux and DevOps engineering have been of key interest to me, and I have been working through this <StyleLink url="https://roadmap.sh/devops">DevOps Roadmap</StyleLink>. I am also studying for the <StyleLink>AWS Cloud Practitioner</StyleLink> certification with plans to obtain a <StyleLink>Certified Solutions Architect - Associate</StyleLink> as well.
             <br><br>
             I am focused on developing a strong foundation in Go and Python programming, as well as familiarizing myself with the RHEL ecoystem with a bare metal install of Fedora Linux. I have experience with both Debian (apt) and RHEL (dnf) based distributions.
         </Prose>
@@ -19,7 +19,7 @@
         <br>
 
         <div class="font-mono">
-            <h1 class="text-xl font-mono">
+            <h1 class="text-xl">
                 this summer I am:
             </h1>
 
