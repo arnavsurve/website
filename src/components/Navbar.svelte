@@ -4,6 +4,7 @@
         { text: "home", href: "/" },
         { text: "projects", href: "/projects" },
         { text: "resume", href: "/resume" },
+        { text: "misc", href: "/misc" },
     ];
 
     $: currentPath = $page.url.pathname;
