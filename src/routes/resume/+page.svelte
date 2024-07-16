@@ -5,6 +5,6 @@
 
 <Header />
 
-<div class="m-4 md:w-3/5 h-screen">
+<div class="m-4 sm:max-w-screen-sm md:w-3/5 h-screen">
     <Resume />
 </div>
