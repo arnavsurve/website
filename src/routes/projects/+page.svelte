@@ -7,12 +7,22 @@
 <Header />
 
 <div class="m-4 font-mono">
-    <StyleLink classDefs="text-lg" url="https://github.com/arnavsurve/website">
-        this website - july 2024
+    <StyleLink classDefs="text-xl" url="/projects/lastfm-api">
+        last.fm api - july 2024
     </StyleLink>
 
-    <Prose>
-        This is my personal portfolio built using SvelteKit for the frontend UI and TailwindCSS for styling components. The source code is available on GitHub at the link above, and I am using Vercel for deployment and hosting. The design of this website is inspired by the <StyleLink url={"https://tinygrad.org/"}>tinygrad</StyleLink> website.
+    <Prose classDefs="p-2">
+        Wondering how I display my top weekly listens in <StyleLink url="/misc">/misc</StyleLink>? This blog post walks through my process building a Flask API that fetches my top weekly and recent tracks from <StyleLink url="https://www.last.fm/home">last.fm</StyleLink> and returns them as JSON. The API is hosted on AWS Lambda and a blog post walking through my implementation is linked above.
     </Prose>
 
+    <br>
+
+    <div>
+        <StyleLink classDefs="text-xl" url="https://github.com/arnavsurve/website">
+            this website - july 2024
+        </StyleLink>
+        <Prose classDefs="p-2">
+            This is my personal portfolio built using SvelteKit for the frontend UI and TailwindCSS for styling components. The source code is available on GitHub at the link above, and I am using Vercel for deployment and hosting. The design of this website is inspired by the <StyleLink url={"https://tinygrad.org/"}>tinygrad</StyleLink> website.
+        </Prose>
+    </div>
 </div>
