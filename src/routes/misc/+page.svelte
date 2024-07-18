@@ -34,7 +34,7 @@
 
     <br>
 
-    <div class="font-mono min-w-fit p-2">
+    <div class="font-mono min-w-fit mx-2">
         <h1 class="text-xl mb-2">my top 10 weekly (<StyleLink url="https://www.last.fm/user/arnavsurve">last.fm</StyleLink>)</h1>
         <LastFM />
     </div>
