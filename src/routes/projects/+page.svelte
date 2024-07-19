@@ -7,12 +7,12 @@
 <Header />
 
 <div class="m-4 font-mono">
-    <StyleLink classDefs="text-xl" url="/projects/lastfm-api">
+    <StyleLink classDefs="text-xl" url="/projects/lastfm-crawl">
         last.fm api - july 2024
     </StyleLink>
 
     <Prose classDefs="p-2">
-        Wondering how I display my top weekly listens in <StyleLink url="/misc">/misc</StyleLink>? This blog post walks through my process building a Flask API that fetches my top weekly and recent tracks from <StyleLink url="https://www.last.fm/home">last.fm</StyleLink> and returns them as JSON. The API is hosted on AWS Lambda and a blog post walking through my implementation is linked above.
+        Wondering how I display my recent listens in <StyleLink url="/misc">/misc</StyleLink>? This blog post walks through my process building a Flask API that fetches my top weekly and recent tracks from <StyleLink url="https://www.last.fm/home">last.fm</StyleLink> and returns them as JSON. The API is hosted on AWS Lambda and a blog post walking through my implementation is linked above. Code hosted on <StyleLink url="https://github.com/arnavsurve/lastfm-crawl">GitHub</StyleLink>.
     </Prose>
 
     <br>
