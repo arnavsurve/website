@@ -8,7 +8,7 @@
 
 <div class="m-4 font-mono">
     <StyleLink classDefs="text-xl" url="/projects/lastfm-crawl">
-        last.fm api - july 2024
+        last.fm-crawl - july 2024
     </StyleLink>
 
     <Prose classDefs="p-2">
