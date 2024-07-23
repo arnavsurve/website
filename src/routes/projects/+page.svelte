@@ -52,7 +52,7 @@
 		<br />
 
 		<img
-			src="https://github.com/user-attachments/assets/bb38cd62-6f82-4c40-af73-996477081240"
+			src="/mdprev.png"
 			alt="md-preview"
 			class="w-1/3 sm:w-max md:w-2/3 lg:w-1/2"
 		/>
