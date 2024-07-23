@@ -7,12 +7,13 @@
 <Header />
 
 <div class="m-4 font-mono">
-    <StyleLink classDefs="text-xl" url="/projects/lastfm-crawl">
+    <!-- <StyleLink classDefs="text-xl" url="/projects/lastfm-crawl"> -->
+    <StyleLink classDefs="text-xl" url="https://github.com/arnavsurve/lastfm-crawl">
         last.fm-crawl - july 2024
     </StyleLink>
 
     <Prose classDefs="p-2">
-        Wondering how I display my recent listens in <StyleLink url="/misc">/misc</StyleLink>? This blog post walks through my process building a Flask API that fetches my top weekly and recent tracks from <StyleLink url="https://www.last.fm/home">last.fm</StyleLink> and returns them as JSON. The API is hosted on AWS Lambda and a blog post walking through my implementation is linked above. Code hosted on <StyleLink url="https://github.com/arnavsurve/lastfm-crawl">GitHub</StyleLink>.
+        HTML embed solutions for Last.fm stats suck - they are either not customizable, slow, or most of the time both. I wanted to create a performant, customizable, and versatile solution for embedding Last.fm stats on my website at <StyleLink url="/misc">/misc</StyleLink>. This is a wrapper for the <StyleLink url="https://www.last.fm/home">last.fm</StyleLink> API written in Python (Flask), containerized with Docker, and hosted with AWS Lambda for personal use. The goal was to provide endpoints that only returned JSON, allowing the developer to display data in the frontend as they wish. Code hosted on GitHub at the link above.
     </Prose>
 
     <br>
