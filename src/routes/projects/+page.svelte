@@ -1,29 +1,60 @@
 <script>
-    import Header from '../../components/Header.svelte';
-    import Prose from '../../components/Prose.svelte';
-    import StyleLink from '../../components/StyleLink.svelte';
+	import Header from '../../components/Header.svelte';
+	import Prose from '../../components/Prose.svelte';
+	import StyleLink from '../../components/StyleLink.svelte';
 </script>
 
 <Header />
 
 <div class="m-4 font-mono">
-    <!-- <StyleLink classDefs="text-xl" url="/projects/lastfm-crawl"> -->
-    <StyleLink classDefs="text-xl" url="https://github.com/arnavsurve/lastfm-crawl">
-        last.fm-crawl - july 2024
-    </StyleLink>
+	<!-- <StyleLink classDefs="text-xl" url="/projects/lastfm-crawl"> -->
+	<StyleLink classDefs="text-xl" url="https://github.com/arnavsurve/lastfm-crawl">
+		last.fm-crawl - july 2024
+	</StyleLink>
 
-    <Prose classDefs="p-2">
-        HTML embed solutions for Last.fm stats suck - they are either not customizable, slow, or most of the time both. I wanted to create a performant, customizable, and versatile solution for embedding Last.fm stats on my website at <StyleLink url="/misc">/misc</StyleLink>. This is a wrapper for the <StyleLink url="https://www.last.fm/home">last.fm</StyleLink> API written in Python (Flask), containerized with Docker, and hosted with AWS Lambda for personal use. The goal was to provide endpoints that only returned JSON, allowing the developer to display data in the frontend as they wish. Code hosted on GitHub at the link above.
-    </Prose>
+	<Prose classDefs="p-2">
+		HTML embed solutions for Last.fm stats suck - they are either not customizable, slow, or most of
+		the time both. I wanted to create a performant, customizable, and versatile solution for
+		embedding Last.fm stats on my website at <StyleLink url="/misc">/misc</StyleLink>. This is a
+		wrapper for the <StyleLink url="https://www.last.fm/home">last.fm</StyleLink> API written in Python
+		(Flask), containerized with Docker, and hosted with AWS Lambda for personal use. The goal was to
+		provide endpoints that only returned JSON, allowing the developer to display data in the frontend
+		as they wish. Code hosted on GitHub at the link above.
+	</Prose>
 
-    <br>
+	<br />
 
-    <div>
-        <StyleLink classDefs="text-xl" url="https://github.com/arnavsurve/website">
-            this website - july 2024
-        </StyleLink>
-        <Prose classDefs="p-2">
-            This is my personal portfolio built using SvelteKit for the frontend UI and TailwindCSS for styling components. The source code is available on GitHub at the link above, and I am using Vercel for deployment and hosting. The design of this website is inspired by the <StyleLink url={"https://tinygrad.org/"}>tinygrad</StyleLink> website.
-        </Prose>
-    </div>
+	<div>
+		<StyleLink classDefs="text-xl" url="https://github.com/arnavsurve/website">
+			this website - july 2024
+		</StyleLink>
+		<Prose classDefs="p-2">
+			This is my personal portfolio built using SvelteKit for the frontend UI and TailwindCSS for
+			styling components. The source code is available on GitHub at the link above, and I am using
+			Vercel for deployment and hosting. The design of this website is inspired by the <StyleLink
+				url={'https://tinygrad.org/'}>tinygrad</StyleLink
+			> website.
+		</Prose>
+	</div>
+
+	<br />
+
+	<div>
+		<StyleLink classDefs="text-xl" url="https://github.com/arnavsurve/md-preview">
+			md-preview - may 2024
+		</StyleLink>
+		<Prose classDefs="p-2">
+			I wanted a lightweight solution to preview markdown files in the browser over localhost. This
+			is an implementation using Node.js to serve an HTML page that renders markdown files with
+			custom styling tailored to my preferences. The code is hosted on GitHub at the link above.
+		</Prose>
+
+		<br />
+
+		<img
+			src="https://github.com/user-attachments/assets/bb38cd62-6f82-4c40-af73-996477081240"
+			alt="md-preview"
+			class="w-1/3 sm:w-max md:w-2/3 lg:w-1/2"
+		/>
+	</div>
 </div>
