@@ -11,7 +11,7 @@
             <Prose>
                 I am a third-year student at California State Univerity, Sacramento pursuing a Bachelor's degree in Computer Science.
                 <br><br>
-                Currently, Linux and DevOps engineering have been of key interest to me, and I have been working through this <StyleLink url="https://roadmap.sh/devops">DevOps Roadmap</StyleLink>. I am also studying for the <StyleLink>AWS Cloud Practitioner</StyleLink> certification with plans to obtain a <StyleLink>Certified Solutions Architect - Associate</StyleLink> as well.
+                Currently, Linux and DevOps engineering have been of key interest to me, and I have been working through this <StyleLink url="https://roadmap.sh/devops">DevOps Roadmap</StyleLink>. I am also studying for the <StyleLink>AWS Cloud Practitioner</StyleLink> certification with plans to obtain a <StyleLink>SysOps Administrator - Associate</StyleLink> certification as well.
                 <br><br>
                 I am focused on developing a strong foundation in Go and Python programming, as well as familiarizing myself with the RHEL ecoystem with a bare metal install of Fedora Linux. I have experience with both Debian (apt) and RHEL (dnf) based distributions.
             </Prose>
