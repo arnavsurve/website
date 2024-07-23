@@ -9,7 +9,7 @@
 <div class="m-4 font-mono">
 	<!-- <StyleLink classDefs="text-xl" url="/projects/lastfm-crawl"> -->
 	<StyleLink classDefs="text-xl" url="https://github.com/arnavsurve/lastfm-crawl">
-		last.fm-crawl - july 2024
+		last.fm-crawl (july 2024)
 	</StyleLink>
 
 	<Prose classDefs="p-2">
@@ -26,7 +26,7 @@
 
 	<div>
 		<StyleLink classDefs="text-xl" url="https://github.com/arnavsurve/website">
-			this website - july 2024
+			this website (july 2024)
 		</StyleLink>
 		<Prose classDefs="p-2">
 			This is my personal portfolio built using SvelteKit for the frontend UI and TailwindCSS for
@@ -41,7 +41,7 @@
 
 	<div>
 		<StyleLink classDefs="text-xl" url="https://github.com/arnavsurve/md-preview">
-			md-preview - may 2024
+			md-preview (may 2024)
 		</StyleLink>
 		<Prose classDefs="p-2">
 			I wanted a lightweight solution to preview markdown files in the browser over localhost. This
