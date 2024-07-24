@@ -51,10 +51,6 @@
 
 		<br />
 
-		<img
-			src="/mdprev.png"
-			alt="md-preview"
-			class="w-1/3 sm:w-max md:w-2/3 lg:w-1/2"
-		/>
+		<img src="/mdprev.png" alt="md-preview" class="xs:w-full sm:w-full md:w-2/3 lg:w-1/2" />
 	</div>
 </div>
