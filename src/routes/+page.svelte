@@ -8,6 +8,12 @@
 
 <div class="m-4 font-mono sm:flex md:flex lg:flex justify-between">
     <div class="m-2">
+        <div class="xs:w-2/3 sm:w-2/5 lg:w-1/4">
+            <img src="/tinyboxes.png" alt="tinyboxes" class="">
+        </div>
+
+        <br>
+
             <Prose>
                 I am a third-year student at California State Univerity, Sacramento pursuing a Bachelor's degree in Computer Science.
                 <br><br>
