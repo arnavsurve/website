@@ -5,6 +5,6 @@
 
 <Header />
 
-<div class="sm:mx-4 md:mx-12 xl:mx-72 flex justify-center h-screen">
+<div class="sm:mx-4 md:mx-12 lg:mx-32 xl:mx-72 flex justify-center h-screen">
 	<Resume />
 </div>
