@@ -1,10 +1,10 @@
 <script>
-    import Header from "../../components/Header.svelte";
-    import Resume from "../../components/Resume.svelte";
+	import Header from '../../components/Header.svelte';
+	import Resume from '../../components/Resume.svelte';
 </script>
 
 <Header />
 
-<div class="m-4 md:w-3/5 lg:w-3/5 h-screen">
-    <Resume />
+<div class="sm:mx-4 md:mx-12 xl:mx-72 flex justify-center h-screen">
+	<Resume />
 </div>
