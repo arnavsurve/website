@@ -10,3 +10,4 @@ This is the source code for my personal website. Written in TypeScript using Sve
 - [ ] git repos on homepage (?)
 - [ ] manual battery logging writeup for lilac (writing monitors without a monitoring framework - email notifs or smth like that)
 - [ ] prometheus/node explorer/grafana writeup
+- [ ] writeup of pros/cons of personal nvim config vs nvchad or similar framework
