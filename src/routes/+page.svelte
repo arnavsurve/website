@@ -18,8 +18,9 @@
 			I am a third-year student at California State Univerity, Sacramento pursuing a Bachelor's
 			degree in Computer Science.
 			<br /><br />
-			Currently, Linux and DevOps engineering have been of key interest to me. I have been working through
-			this <StyleLink url="https://roadmap.sh/devops">DevOps Roadmap</StyleLink> and studying for my
+			Currently, Linux sysadmin and DevOps engineering have been of key interest to me. I have been working
+			through this <StyleLink url="https://roadmap.sh/devops">DevOps Roadmap</StyleLink> and studying
+			for my
 			<StyleLink url="https://aws.amazon.com/certification/certified-sysops-admin-associate/"
 				>AWS SysOps Administrator - Associate</StyleLink
 			> certification.
@@ -33,7 +34,6 @@
 
 		<div class="font-mono">
 			<h1 class="text-xl">this summer I am:</h1>
-
 			<ul class="text-sm list-disc p-2">
 				<li>Interning for Milgard IT DevOps in Tacoma, WA</li>
 				<li>Conducting infrasound research under the NASA California Space Grant Consortium</li>
