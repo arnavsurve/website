@@ -7,9 +7,24 @@
 <Header />
 
 <div class="m-4 font-mono">
-	<!-- <StyleLink classDefs="text-xl" url="/projects/lastfm-crawl"> -->
+	<StyleLink classDefs="text-xl" url="https://github.com/arnavsurve/vcs">
+		vcs (july 2024 - aug 2024)
+	</StyleLink>
+
+	<Prose classDefs="p-2">
+		This is a version control system written in Go with the Cobra library for creating CLI applications.
+		This project was created as a learning experience for Go and for a deeper understanding of how version control systems work.
+		The goal was to create a simple and perfomant
+		version control system that could be used to track file and directory changes. The project is essentially a simplified version 
+		of Git with a subset of its features. Inspired by <StyleLink url="https://github.com/git/git">Git</StyleLink> and 
+		<StyleLink url="https://ryanheathcote.com/git/build-your-own-vcs">Build Your Own VCS</StyleLink> by Ryan Heathcote, a Bash implementation 
+		of this project. Code is hosted on GitHub at the link above.
+	</Prose>
+
+	<br />
+
 	<StyleLink classDefs="text-xl" url="https://github.com/arnavsurve/lastfm-crawl">
-		last.fm-crawl (july 2024)
+		lastfm-crawl (july 2024)
 	</StyleLink>
 
 	<Prose classDefs="p-2">
@@ -29,7 +44,7 @@
 			this website (july 2024)
 		</StyleLink>
 		<Prose classDefs="p-2">
-			This is my personal portfolio built using SvelteKit for the frontend UI and TailwindCSS for
+			This is my personal website built using SvelteKit for the frontend UI and TailwindCSS for
 			styling components. The source code is available on GitHub at the link above, and I am using
 			Vercel for deployment and hosting. The design of this website is inspired by the <StyleLink
 				url={'https://tinygrad.org/'}>tinygrad</StyleLink
@@ -45,8 +60,8 @@
 		</StyleLink>
 		<Prose classDefs="p-2">
 			I wanted a lightweight solution to preview markdown files in the browser over localhost. This
-			is an implementation using Node.js to serve an HTML page that renders markdown files with
-			custom styling tailored to my preferences. The code is hosted on GitHub at the link above.
+			is an implementation using Node.js to serve an HTML page that renders markdown syntax with
+			custom styling tailored to my preferences. Code hosted on GitHub at the link above.
 		</Prose>
 
 		<br />
