@@ -32,7 +32,8 @@
 		the time both. I wanted to create a performant, customizable, and versatile solution for
 		embedding Last.fm stats on my website at <StyleLink url="/misc">/misc</StyleLink>. This is a
 		wrapper for the <StyleLink url="https://www.last.fm/home">last.fm</StyleLink> API written in Python
-		(Flask), containerized with Docker, and hosted with AWS Lambda for personal use. The goal was to
+		(Flask), containerized with Docker, and hosted with AWS Lambda for personal use. I implemented a CI/CD
+		pipeling with Zappa for seamless testing and deployment. The goal was to
 		provide endpoints that only returned JSON, allowing the developer to display data in the frontend
 		as they wish. Code hosted on GitHub at the link above.
 	</Prose>
