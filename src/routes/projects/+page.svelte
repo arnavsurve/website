@@ -12,13 +12,13 @@
 	</StyleLink>
 
 	<Prose classDefs="p-2">
-		This is a version control system written in Go with the Cobra library for creating CLI applications.
-		This project was created as a learning experience for Go and for a deeper understanding of how version control systems work.
-		The goal was to create a simple and perfomant
-		version control system that could be used to track file and directory changes. The project is essentially a simplified version 
-		of Git with a subset of its features. Inspired by <StyleLink url="https://github.com/git/git">Git</StyleLink> and 
-		<StyleLink url="https://ryanheathcote.com/git/build-your-own-vcs">Build Your Own VCS</StyleLink> by Ryan Heathcote, a Bash implementation 
-		of this project. Code is hosted on GitHub at the link above.
+		This is a version control system written in Go with the Cobra library for creating CLI
+		applications, using SHA1 hashes to track changes in files and directories. This project was
+		created as an exercise for Go development and for a deeper understanding of how version control
+		systems work. This is essentially a simplified version of Git with a subset of its features,
+		inspired by <StyleLink url="https://ryanheathcote.com/git/build-your-own-vcs"
+			>Build Your Own VCS</StyleLink
+		> by Ryan Heathcote. Code is hosted on GitHub at the link above.
 	</Prose>
 
 	<br />
@@ -32,10 +32,10 @@
 		the time both. I wanted to create a performant, customizable, and versatile solution for
 		embedding Last.fm stats on my website at <StyleLink url="/misc">/misc</StyleLink>. This is a
 		wrapper for the <StyleLink url="https://www.last.fm/home">last.fm</StyleLink> API written in Python
-		(Flask), containerized with Docker, and hosted with AWS Lambda for personal use. I implemented a CI/CD
-		pipeling with Zappa for seamless testing and deployment. The goal was to
-		provide endpoints that only returned JSON, allowing the developer to display data in the frontend
-		as they wish. Code hosted on GitHub at the link above.
+		(Flask), containerized with Docker, and hosted with AWS Lambda for personal use. I implemented a
+		CI/CD pipeling with Zappa for seamless testing and deployment. The goal was to provide endpoints
+		that only returned JSON, allowing the developer to display data in the frontend as they wish. Code
+		hosted on GitHub at the link above.
 	</Prose>
 
 	<br />
