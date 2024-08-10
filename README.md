@@ -10,9 +10,12 @@ This is the source code for my personal website. Written in TypeScript using Sve
 - [ ] git repos on homepage (?)
 
 
-### blog section
+### blog
+
+- [ ] cloud resume challenge 
 - [ ] host sysadmin obsidian vault? **(!remove all api keys and auth tokens before doing this)**
 - [ ] create blog route
 - [ ] manual battery logging writeup for lilac (writing monitors without a monitoring framework - email notifs or smth like that)
-- [ ] prometheus/node explorer/grafana writeup
+- [ ] prometheus/grafana writeup
+- [ ] cloudflare tunnels vs. ngrok tunnels writeup
 - [ ] writeup of pros/cons of personal nvim config vs nvchad or similar framework
