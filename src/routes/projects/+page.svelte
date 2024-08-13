@@ -65,8 +65,6 @@
 			custom styling tailored to my preferences. Code hosted on GitHub at the link above.
 		</Prose>
 
-		<br />
-
-		<img src="/mdprev.png" alt="md-preview" class="xs:w-full sm:w-full md:w-2/3 lg:w-1/2" />
+		<img src="/mdprev.png" alt="md-preview" class="mx-2 xs:w-full sm:w-full md:w-2/3 lg:w-1/2" />
 	</div>
 </div>
