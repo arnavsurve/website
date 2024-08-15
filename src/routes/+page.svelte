@@ -36,7 +36,7 @@
 		<div class="font-mono">
 			<h1 class="text-xl">this summer I am:</h1>
 			<ul class="text-sm list-disc p-2">
-				<li>Interning with Milgard IT DevOps in Tacoma, WA</li>
+				<li>Interning with MITER Brands IT Infrastructure in Tacoma, WA</li>
 				<li>Conducting infrasound research under the NASA California Space Grant Consortium</li>
 				<li>Taking MATH410 (Intro to Linear Algebra) at American River College</li>
 			</ul>
