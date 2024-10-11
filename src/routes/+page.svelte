@@ -8,14 +8,14 @@
 
 <div class="m-4 font-mono sm:flex md:flex lg:flex justify-between">
 	<div class="m-2">
-		<div class="xs:w-1/2 sm:w-2/5 lg:w-1/4 xl:w-1/5">
-			<img src="/tinyboxes.png" alt="tinyboxes" class="" />
+		<div class="xs:w-1/2 sm:w-3/5 lg:w-1/2 xl:w-2/5 2xl:w-2/6">
+			<img src="/portainer.png" alt="tinyboxes" class="" />
 		</div>
 
 		<br />
 
 		<Prose>
-			I am a third-year student at California State University, Sacramento pursuing a BS in Computer
+			I'm a third-year student at California State University, Sacramento pursuing a BS in Computer
 			Science. Passionate about everything software and a relentless advocate for open-source
 			software and the Linux community. Open to software development and sysadmin opportunities.
 			<br /><br />
