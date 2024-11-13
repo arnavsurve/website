@@ -17,7 +17,7 @@
 		<Prose>
 			I'm a third-year student at California State University, Sacramento pursuing a BS in Computer
 			Science. Passionate about everything software and a relentless advocate for open-source
-			software and the Linux community. Open to SWE and Q/A opportunities.
+			software and the Linux community. Open to SWE and adjacent opportunities.
 			<br /><br />
 			Server-side development and DevOps engineering have been of recent key interest to me. I have been working
 			through this <StyleLink url="https://roadmap.sh/devops">DevOps Roadmap</StyleLink> and studying
