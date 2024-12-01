@@ -16,7 +16,7 @@
 
 		<Prose>
 			I'm a third-year student at CSU Sacramento pursuing a BS in Computer
-			Science. I like to code servers and build web apps in my free time.
+			Science. I like to program servers and build web apps in my free time.
 			<br /><br />
 			Currently working on a project called <a href="https://github.com/EaRu723/ynot.lol-web" class="underline">Y</a>, connecting users and multimedia across the web using the <a href="https://atproto.com/" class="underline">AT Protocol</a>.
 			<br /><br />
