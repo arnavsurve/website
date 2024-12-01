@@ -31,7 +31,7 @@
 </div>
 
 <hr class="mx-4" />
-<Navbar />
+<!-- <Navbar /> -->
 
 <style>
 	@keyframes blink {
