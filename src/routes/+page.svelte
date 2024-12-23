@@ -15,8 +15,8 @@
 		<!-- <br /> -->
 
 		<Prose>
-			I'm a third-year student at CSU Sacramento pursuing a BS in Computer Science. I like
-			administrating servers and building web apps in my free time.
+			I'm a third-year student at CSU Sacramento pursuing a BS in Computer Science. I like building
+			servers and web apps in my free time.
 			<br /><br />
 			Currently working on a project called
 			<a href="https://github.com/EaRu723/ynot.lol-web" class="underline">Y</a>, connecting users
