@@ -2,6 +2,7 @@
 	import Header from '../components/Header.svelte';
 	import Prose from '../components/Prose.svelte';
 	import StyleLink from '../components/StyleLink.svelte';
+	import GithubCalendar from '../components/GithubCalendar.svelte';
 </script>
 
 <Header />
@@ -25,7 +26,7 @@
 			<br /><br />
 		</Prose>
 
-		<br />
+		<GithubCalendar />
 
 		<!-- <div class="font-mono"> -->
 		<!-- 	<h1 class="text-xl">this summer I:</h1> -->

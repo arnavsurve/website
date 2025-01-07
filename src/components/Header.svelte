@@ -31,6 +31,7 @@
 </div>
 
 <hr class="mx-4" />
+
 <!-- <Navbar /> -->
 
 <style>
