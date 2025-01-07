@@ -4,6 +4,8 @@
 	import { PUBLIC_GITHUB_PAT } from '$env/static/public';
 
 	let data = [];
+	let totalCommits2024 = 0; // Variable to store 2024 contributions
+	let summaryText = '';
 
 	const loadGithubActivity = async () => {
 		const githubId = 'arnavsurve';
@@ -54,6 +56,7 @@
 
 		const weeks = result.data.user.contributionsCollection.contributionCalendar.weeks;
 		const eventObj = {};
+		totalCommits2024 = 0; // Reset count
 
 		weeks.forEach((week) => {
 			week.contributionDays.forEach((day) => {
@@ -61,6 +64,12 @@
 				const count = day.contributionCount;
 				if (count > 0) {
 					eventObj[date] = Array(count).fill({ type: 'Contribution' });
+
+					// Check if the date is in 2024
+					const year = new Date(date).getFullYear();
+					if (year === 2024) {
+						totalCommits2024 += count; // Add to 2024 count
+					}
 				}
 			});
 		});
@@ -69,6 +78,9 @@
 			date,
 			activities
 		}));
+
+		// Update the summary text dynamically
+		summaryText = `${totalCommits2024} commits in 2024`;
 	};
 
 	onMount(() => {
@@ -77,7 +89,13 @@
 </script>
 
 <div>
-	<ActivityCalendarWidget daysToRender={200} {data} levelColorMode="light" />
+	<ActivityCalendarWidget
+		daysToRender={200}
+		{data}
+		levelColorMode="light"
+		showLevels={false}
+		{summaryText}
+	/>
 </div>
 
 <style>
